@@ -3,7 +3,10 @@
 using namespace std;
 
 bool evenodd(int n){
-	if(n == 2){
+	if(n < 0){
+		n = n*-1;
+	}
+	if(n == 2 || n == 2){
 		return true;
 	}
 	else if(n == 1){
@@ -15,6 +18,6 @@ bool evenodd(int n){
 }
 
 int main(){
-	cout << evenodd(5000000);
+	cout << evenodd(0);
 	return 0;
 }
