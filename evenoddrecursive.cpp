@@ -6,7 +6,7 @@ bool evenodd(int n){
 	if(n < 0){
 		n = n*-1;
 	}
-	if(n == 2 || n == 2){
+	if(n == 2 || n == 0){
 		return true;
 	}
 	else if(n == 1){
